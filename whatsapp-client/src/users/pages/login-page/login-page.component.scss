@@ -1,0 +1,45 @@
+@use "colors.scss"  as *;
+
+:host {
+  display: block;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 20px;
+  width: 50vw;
+  background-color: $background-2;
+
+  .user {
+    background-color: $background;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;   
+    display: grid;
+    grid-template-columns: 50px 1fr 30px;
+    gap: 5px;
+
+    img {
+      width: 35px;
+      cursor: pointer;
+    }
+
+    button {
+      color: $fonte;
+      font-size: 1em;
+      background: transparent;
+      border: 1px solid $fonte;
+      cursor: pointer;
+    }
+
+  }
+
+  input {
+    display: none;
+  }
+
+}
+
+

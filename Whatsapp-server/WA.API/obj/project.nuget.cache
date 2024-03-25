@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "lRARm03lTRa1C6PfDhtNb8UcPPS/p2sAHaVz1rJTgh1KRAebe7ZUqq6SQI2Mxu4Fqow73dBEQvv/MZ4jtSeE0A==",
+  "success": true,
+  "projectFilePath": "/media/tomwell/1413B28E0AC9DE92/Projetos/WhatsAppAngular/Whatsapp-server/WA.API/WA.API.csproj",
+  "expectedPackageFiles": [
+    "/home/tomwell/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
+    "/home/tomwell/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/tomwell/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/tomwell/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/tomwell/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/tomwell/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/tomwell/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
