@@ -20,6 +20,11 @@
     display: grid;
     grid-template-columns: 50px 1fr 30px;
     gap: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $background-3;
+    }
 
     img {
       width: 35px;
@@ -32,6 +37,11 @@
       background: transparent;
       border: 1px solid $fonte;
       cursor: pointer;
+
+      &:hover {
+        background-color: $fonte;
+        color: $background;
+      }
     }
 
   }

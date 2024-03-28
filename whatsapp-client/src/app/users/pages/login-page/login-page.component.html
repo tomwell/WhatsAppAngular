@@ -1,0 +1,19 @@
+
+<div class="container">
+    @if(apiOfflile){
+        <div style="background-color: rgb(221, 29, 29); color: #FFF; padding: 1rem; text-align: center;">
+            Serviço para consulta de usuários está offline
+        </div> 
+    }
+    
+    <div>Escolha um login</div>
+    <input type="file" #input (change)="onFileSelected($event)">    
+
+    @for (userImage of users$ | async ; track userImage.user.id) {
+        <div class="user">
+            <img src="" />
+            <span>{{userImage.user.name}}</span>
+            <button (click)="onImageButtonClicked(userImage.user.id)">IM</button>
+        </div>
+    } 
+</div>
